@@ -1,0 +1,11 @@
+@mixin regText {
+    font-family: 'Roboto Condensed', sans-serif, 300;
+}
+
+@mixin reg {
+    font-family: 'Poppins', sans-serif, 300;
+}
+
+@mixin bold {
+    font-family: 'Poppins', sans-serif, 700;
+}
