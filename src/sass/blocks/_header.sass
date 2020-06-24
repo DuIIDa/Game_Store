@@ -1,0 +1,145 @@
+.header
+    background: url('../img/header/bg_header.jpg') no-repeat
+    background-size: 100% 100%
+    padding-top: 13px
+    padding-bottom: 140px
+.navbar
+    color: #ffffff
+    &-block
+        height: 83px
+        padding-top: 8px
+        background-color: rgba(0,0,0,.55)
+        margin-bottom: 32px
+    &-list
+        margin: auto
+        &__item:first-child
+            margin-right: 40px
+    &-link
+        &__img
+            margin-right: 14px
+        &__text
+            color: #fffffff8 !important
+            +regText
+            font-size: 17px
+.form-search
+    &__input
+        color: #ffffff
+        padding: 12px 0 12px 16px
+        margin: 0
+        max-width: 208px
+        height: 38px
+        border: 1.0px solid #ffffff
+        background-color: rgba(0,0,0,.22)
+        border-radius: 0
+        outline: none
+        &:focus
+            background-color: rgba(0,0,0,.22)
+    &__button
+        width: 38px
+        height: 38px
+        border: 1.0px solid #ffffff
+        background-color: rgba(0,0,0,.22)
+        border-radius: 0
+        outline: none
+        cursor: pointer
+        &:hover
+            background-color: rgba(0,0,0,.22)
+.menu
+    &-block
+        margin-bottom: 134px
+    &-block::after
+        bottom: 2px
+        content: ''
+        display: block
+        width: 100%
+        height: 2px
+        background-color: #ffffff
+    &-item:not(:last-child)
+        margin-right: 20px
+    &-item:hover::after
+        content: ''
+        display: block
+        height: 4px
+        background-color: #ffffff
+    &-text
+        padding-bottom: 30px
+        font-size: 20px
+        line-height: 22px
+        letter-spacing: 0.01em
+        color: #000000
+        &:hover
+            color: #ffffff
+    &-active
+        color: #ffffff !important
+        &__text
+            color: #ffffff
+            &:hover
+                color: #000000
+        &::after
+            content: ''
+            display: block
+            height: 4px
+            background-color: #ffffff
+.hero
+    &-block
+        text-align: center
+        &__subtitle
+            font-size: 18px
+            line-height: 48px
+            font-weight: 400
+            color: #ffffff
+            margin-bottom: 76px
+            &::after
+                content: ''
+                display: block
+                margin: 0 auto
+                width: 80px
+                height: 2px
+                background-color: #ffffff
+        &__title
+            +bold
+            margin: 0
+            font-size: 60px
+            line-height: 48px
+            color: #ffffff
+            margin-bottom: 75px
+.icon-list
+    &__link
+        text-decoration: none
+        &:not(:last-child)
+            margin-right: 12px
+        &:hover
+            text-decoration: none
+
+
+    
+@media ( max-width: 992px )
+    .navbar
+        &-content
+            padding: 15px
+            margin-top: 11px
+            background-color: rgba(0,0,0,0.9)
+    .menu
+        &-block
+            margin-bottom: 90px
+    .hero
+        &-block
+            &__subtitle
+                margin-bottom: 40px
+@media ( max-width: 768px )
+    .menu
+        &-block
+            margin-bottom: 50px
+    .hero
+        &-block
+            &__subtitle
+                margin-bottom: 30px
+    .header
+        background-size: cover  
+@media ( max-width: 360px )
+    .form-search
+        max-width: 180px
+    .hero
+        &-block
+            &__title
+                font-size: 50px
