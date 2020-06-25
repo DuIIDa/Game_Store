@@ -12,6 +12,15 @@ body {
   font-weight: 300;
 }
 
+.section-title {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #f44336;
+}
+
 .header {
   background: url("../img/header/bg_header.jpg") no-repeat;
   background-size: 100% 100%;
@@ -44,8 +53,6 @@ body {
 
 .navbar-link__text {
   color: #fffffff8 !important;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 300;
   font-size: 17px;
 }
 
@@ -204,11 +211,37 @@ body {
 }
 
 @media (max-width: 360px) {
-  .form-search {
-    max-width: 180px;
-  }
   .hero-block__title {
     font-size: 50px;
   }
+}
+
+/*aboutUS*/
+.aboutUs {
+  padding: 90px 0px;
+}
+
+.aboutUs__title {
+  text-align: start;
+  margin-bottom: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.aboutUs__text {
+  font-size: 12px;
+  line-height: 24px;
+  color: #999999;
+}
+
+/*Servises*/
+.services {
+  padding: 95px 0px;
+  background-color: #f7f7f7;
+}
+
+.services__title {
+  margin-bottom: 87px;
 }
 /*# sourceMappingURL=style.css.map */
