@@ -244,4 +244,38 @@ body {
 .services__title {
   margin-bottom: 87px;
 }
+
+.services-block__item {
+  margin-bottom: 86px;
+}
+
+.services-img {
+  min-width: 102px;
+  max-width: 102px;
+  height: 102px;
+  background-color: #e1e1e1;
+  border: 1.0px solid #acacac;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.services-text__title {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.services-text__text {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.text-right {
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */
