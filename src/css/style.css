@@ -1,3 +1,4 @@
+/*Color*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -19,6 +20,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: #f44336;
+}
+
+.button {
+  border: 0;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background-color: #f44336;
 }
 
 .header {
@@ -52,7 +61,7 @@ body {
 }
 
 .navbar-link__text {
-  color: #fffffff8 !important;
+  color: #ffffff;
   font-size: 17px;
 }
 
@@ -62,7 +71,7 @@ body {
   margin: 0;
   max-width: 208px;
   height: 38px;
-  border: 1.0px solid #ffffff;
+  border: 1px solid #ffffff;
   background-color: rgba(0, 0, 0, 0.22);
   border-radius: 0;
   outline: none;
@@ -75,7 +84,7 @@ body {
 .form-search__button {
   width: 38px;
   height: 38px;
-  border: 1.0px solid #ffffff;
+  border: 1px solid #ffffff;
   background-color: rgba(0, 0, 0, 0.22);
   border-radius: 0;
   outline: none;
@@ -123,7 +132,7 @@ body {
 }
 
 .menu-active {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 
 .menu-active__text {
@@ -237,7 +246,7 @@ body {
 
 /*Servises*/
 .services {
-  padding: 95px 0px;
+  padding-top: 86px;
   background-color: #f7f7f7;
 }
 
@@ -253,10 +262,14 @@ body {
   min-width: 102px;
   max-width: 102px;
   height: 102px;
-  background-color: #e1e1e1;
+  background-color: #ffffff;
   border: 1.0px solid #acacac;
   border-radius: 50%;
   text-align: center;
+}
+
+.services-img:hover {
+  background-color: #f44336;
 }
 
 .services-text__title {
@@ -277,5 +290,53 @@ body {
 
 .text-right {
   text-align: right;
+}
+
+/*gallery*/
+.gallery {
+  padding: 93px 0 186px 0;
+}
+
+.gallery-title {
+  margin-bottom: 92px;
+}
+
+.gallery-item {
+  padding-bottom: 13px;
+  background-color: #f7f7f7;
+}
+
+.gallery-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  min-height: 80px;
+  margin-top: 16px;
+}
+
+.gallery-buttons__name {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.gallery-buttons__button {
+  font-size: 14.1px;
+  width: 130px;
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
