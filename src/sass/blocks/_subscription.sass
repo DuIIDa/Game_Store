@@ -1,0 +1,32 @@
+.subscription
+    background: url('../img/subscription/bg_form.jpg') no-repeat
+    background-size: 100% 100%
+    padding-top: 86px
+    padding-bottom: 80px
+    &-title
+        text-align: center
+        margin-bottom: 53px
+        font-size: 48px
+        line-height: 48px
+        +bold
+        color: $write-text
+    &-input
+        height: 55px
+        padding-left: 30px
+        margin-right: 12px
+    &-submit
+        padding: 0px 33px
+        font-size: 14px
+        height: 53px
+@media ( max-width: 992px )
+    .subscription
+        background-size: cover
+        background-position: center right -150px
+@media ( max-width: 768px )
+    .subscription
+        background-size: cover
+        background-position: center right -300px
+@media ( max-width: 540px )
+    .subscription
+        background-size: cover
+        background-position: center right -600px

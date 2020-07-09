@@ -14,6 +14,10 @@ body {
   font-weight: 300;
 }
 
+textarea {
+  resize: none;
+}
+
 .section-title {
   margin: 0;
   text-align: center;
@@ -25,6 +29,7 @@ body {
 
 .button {
   border: 0;
+  border-radius: 0;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -40,6 +45,33 @@ body {
   right: 0;
   bottom: -20px;
   border-radius: 50%;
+}
+
+.input {
+  border-radius: 0;
+  font-size: 14px;
+  line-height: 48px;
+}
+
+.map {
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.map-title {
+  margin-bottom: 25px;
+}
+
+.footer {
+  padding: 28px 0;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .header {
@@ -615,5 +647,104 @@ body {
 
 .team-social-link__item:not(:last-child) {
   margin-right: 14px;
+}
+
+/*subscription*/
+.subscription {
+  background: url("../img/subscription/bg_form.jpg") no-repeat;
+  background-size: 100% 100%;
+  padding-top: 86px;
+  padding-bottom: 80px;
+}
+
+.subscription-title {
+  text-align: center;
+  margin-bottom: 53px;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subscription-input {
+  height: 55px;
+  padding-left: 30px;
+  margin-right: 12px;
+}
+
+.subscription-submit {
+  padding: 0px 33px;
+  font-size: 14px;
+  height: 53px;
+}
+
+@media (max-width: 992px) {
+  .subscription {
+    background-size: cover;
+    background-position: center right -150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .subscription {
+    background-size: cover;
+    background-position: center right -300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .subscription {
+    background-size: cover;
+    background-position: center right -600px;
+  }
+}
+
+/*contact*/
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-title {
+  margin-bottom: 89px;
+}
+
+.contact-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  color: #f44336;
+  margin-bottom: 18px;
+}
+
+.contact-text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #999999;
+}
+
+.contact__email {
+  color: #f44336;
+}
+
+.contact__email:hover {
+  text-decoration: none;
+}
+
+.contact-input {
+  font-size: 14px;
+  margin-bottom: 21px;
+  height: 42px;
+}
+
+.contact-text {
+  font-size: 14px;
+  margin-bottom: 19px;
+}
+
+.contact-submit {
+  font-size: 14px;
+  padding: 15px 46px;
 }
 /*# sourceMappingURL=style.css.map */
